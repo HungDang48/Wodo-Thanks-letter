@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
 
 const mailOptions = {
   from: '"THƯ CẢM ƠN " <gologolo4567@gmail.com>',
-  to: "hungdang040801@gmail.com",  // Thay bằng email người nhận
+  to: " ",  // Thay bằng email người nhận
   // subject: "THƯ CẢM ƠN",
   html: `
    <div style="font-family: 'Arial', sans-serif; padding: 20px; background-color: #f4f4f9;">
