@@ -41,12 +41,13 @@ app.post("/", (req, res) => {
         <p style="font-size: 18px; font-weight: bold; color: red;">𝒲𝒪𝒰𝐿𝒟 𝒯𝐻𝐼𝒩𝒦𝒮</p>
         <p style="font-size: 18px; font-weight: bold; color: red;">𝓦𝓞𝓤𝓛𝓓 𝓓𝓞</p>
         <img src="cid:thanksImage" alt="thanks picture" style="width: 100%; border-radius: 8px; margin-top: 20px;" />
+
       </div>
     `,
     attachments: [
       {
-        filename: 'image.jpg',
-        path: 'https://drive.google.com/uc?export=view&id=17ttLcoDh2rll_DSG72pc0eqKBA_lRtr1',
+        filename: 'image.png',
+        path: __dirname + "/assets/YF2.png",
         cid: 'thanksImage'
       }
     ]
