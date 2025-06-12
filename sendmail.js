@@ -43,7 +43,7 @@ Xin chào, đây là WODO đến từ Better World Camp 2025</h2>
   attachments: [
     {
       filename: 'image.jpg',
-      path: 'https://drive.google.com/uc?id=1GfyVQNZaG9avop7PgVo15yCuT2JbL4sK', // Link trực tiếp từ Google Drive
+      path: 'https://drive.google.com/uc?export=view&id=17ttLcoDh2rll_DSG72pc0eqKBA_lRtr1', // Link trực tiếp từ Google Drive
       cid: 'thanksImage'  // Trùng với CID trong thẻ <img> để nhúng ảnh vào email
     }
   ]
