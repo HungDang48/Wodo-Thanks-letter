@@ -36,7 +36,7 @@ app.post("/", (req, res) => {
         <p style="color: #5D18E5; font-size: 25px;"><strong>𝓦𝓞𝓓𝓞</strong></p>
         <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓽𝓱𝓲𝓷𝓴𝓼</strong></p>
         <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓭𝓸</strong></p>
-        <img src="cid:thanksImage" style="width: 100%; max-width: 600px;" alt="Thank You" />
+        <img src="cid:thanksImage" style="width: 100%; max-width: 1600px;" alt="Thank You" />
       </div>
     `,
     attachments: [
