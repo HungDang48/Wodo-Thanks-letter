@@ -34,8 +34,8 @@ app.post("/", (req, res) => {
         <p>Sự đóng góp của bạn là nguồn động lực to lớn giúp chúng tôi tiếp tục hành trình phát triển.</p>
         <p>Hy vọng sẽ gặp lại bạn trong những chương trình tiếp theo!</p>
         <p style="color: #5D18E5; font-size: 25px;"><strong>𝓦𝓞𝓓𝓞</strong></p>
-        <p style="color: #5D18E5; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓽𝓱𝓲𝓷𝓴𝓼</strong></p>
-        <p style="color: #5D18E5; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓭𝓸</strong></p>
+        <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓽𝓱𝓲𝓷𝓴𝓼</strong></p>
+        <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓭𝓸</strong></p>
         <img src="cid:thanksImage" alt="thanks" style="width: 100%; margin-top: 20px;" />
       </div>
     `,
