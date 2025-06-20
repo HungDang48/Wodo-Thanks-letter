@@ -28,7 +28,7 @@ app.post("/", (req, res) => {
     subject: "Thư cảm ơn từ WODO 💖",
     html: `
       <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f9;">
-        <h2 style="color: #2c3e50;">Xin chào, đây là WODO đến từ Better World Camp 2025</h2> <img src="cid:WodoImage" style="width: 100%; max-width: 300px;" alt="Wodo" />
+        <h2 style="color: #2c3e50;">Xin chào, đây là WODO đến từ Better World Camp 2025</h2> <img src="cid:WodoImage" style="width: 100%; max-width: 50px;" alt="Wodo" />
         <p>Kính gửi <strong style="color: #e74c3c;">${name}</strong>,</p>
         <p>Chúng tôi xin chân thành cảm ơn bạn vì đã donate <strong>${Number(amount).toLocaleString()} VNĐ</strong>.</p>
         <p>Sự đóng góp của bạn là nguồn động lực to lớn giúp chúng tôi tiếp tục hành trình phát triển.</p>
