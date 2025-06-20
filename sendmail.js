@@ -39,6 +39,9 @@ app.post("/", (req, res) => {
         <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓽𝓱𝓲𝓷𝓴𝓼</strong></p>
         <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓭𝓸</strong></p>
         <img src="cid:thanksImage" style="width: 100%; max-width: 1600px;" alt="Thank You" />
+        <p>vì đây là mail test automation nên để đảm bảo mail này đã đến được tay bạn vui lòng quét mã qr để xác nhận, xin chân thành cảm ơn!</p>
+        <p>Đây là code IT lỏ Hưng không ĐEN TABTT!</p>
+        <img src="cid:qrImage" style="width: 100%; max-width: 400px;" alt="Thank You" />
       </div>
     `,
     attachments: [
@@ -46,6 +49,11 @@ app.post("/", (req, res) => {
         filename: 'YF2.png',
         path: __dirname + "/assets/YF2.png",
         cid: 'thanksImage'
+      },
+      {
+        filename: 'qrcode.png',
+        path: __dirname + "/assets/qrcode.png",
+        cid: 'qrImage'
       }
     ]
   };
