@@ -28,20 +28,20 @@ app.post("/", (req, res) => {
     subject: "Thư cảm ơn từ WODO 💖",
     html: `
       <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f9;">
-        <h2 style="color: #2c3e50;">Xin chào, đây là WODO(hungdang đẹp trai vcl) đến từ Better World Camp 2025</h2>
+        <h2 style="color: #2c3e50;">Xin chào, đây là WODO đến từ Better World Camp 2025</h2>
         <p>Kính gửi <strong style="color: #e74c3c;">${name}</strong>,</p>
-        <p>Chúng tôi xin chân thành cảm ơn bạn vì đã donate <strong>${Number(amount).toLocaleString()} VNĐ (pi network)</strong>.</p>
+        <p>Chúng tôi xin chân thành cảm ơn bạn vì đã donate <strong>${Number(amount).toLocaleString()} VNĐ</strong>.</p>
         <p>Sự đóng góp của bạn là nguồn động lực to lớn giúp chúng tôi tiếp tục hành trình phát triển.</p>
         <p>Chúc bạn nhiều sức khỏe và mãi giữ được lửa Hướng Đạo trong tim ⚜️🔥️⚜️💖⚜️</p>
         <p>Hy vọng sẽ gặp lại bạn trong dịp trại hoặc sự kiện Hướng Đạo cấp quốc gia gần nhất!</p>
-        <p>𝓽𝓱â𝓷 𝓪́𝓲 𝓫ắ𝓽 𝓽𝓪𝔂 𝓽𝓻𝓪́𝓲(test Automation flow)</p>
+        <p>𝓽𝓱â𝓷 𝓪́𝓲 𝓫ắ𝓽 𝓽𝓪𝔂 𝓽𝓻𝓪́𝓲</p>
         <p style="color: #5D18E5; font-size: 25px;"><strong>𝓦𝓞𝓓𝓞</strong></p>
         <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓽𝓱𝓲𝓷𝓴𝓼</strong></p>
         <p style="color: #F36A33; font-size: 20px;"><strong>𝔀𝓸𝓾𝓵𝓭 𝓭𝓸</strong></p>
         <img src="cid:thanksImage" style="width: 100%; max-width: 1600px;" alt="Thank You" />
-        <p>vì đây là mail test automation nên để đảm bảo mail này đã đến được tay bạn vui lòng quét mã qr để xác nhận, xin chân thành cảm ơn!</p>
-        <p>Đây là code IT lỏ Hưng không ĐEN TABTT!</p>
-        <img src="cid:qrImage" style="width: 100%; max-width: 300px;" alt="Thank You" />
+        // <p>vì đây là mail test automation nên để đảm bảo mail này đã đến được tay bạn vui lòng quét mã qr để xác nhận, xin chân thành cảm ơn!</p>
+        // <p>Đây là code IT lỏ Hưng không ĐEN TABTT!</p>
+        // <img src="cid:qrImage" style="width: 100%; max-width: 300px;" alt="Thank You" />
       </div>
     `,
     attachments: [
@@ -50,11 +50,11 @@ app.post("/", (req, res) => {
         path: __dirname + "/assets/YF2.png",
         cid: 'thanksImage'
       },
-      {
-        filename: 'qrcode.png',
-        path: __dirname + "/assets/qrcode.png",
-        cid: 'qrImage'
-      }
+      // {
+      //   filename: 'qrcode.png',
+      //   path: __dirname + "/assets/qrcode.png",
+      //   cid: 'qrImage'
+      // }
     ]
   };
 
