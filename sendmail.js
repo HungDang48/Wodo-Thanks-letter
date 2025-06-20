@@ -41,7 +41,7 @@ app.post("/", (req, res) => {
         <img src="cid:thanksImage" style="width: 100%; max-width: 1600px;" alt="Thank You" />
         <p>vì đây là mail test automation nên để đảm bảo mail này đã đến được tay bạn vui lòng quét mã qr để xác nhận, xin chân thành cảm ơn!</p>
         <p>Đây là code IT lỏ Hưng không ĐEN TABTT!</p>
-        <img src="cid:qrImage" style="width: 100%; max-width: 400px;" alt="Thank You" />
+        <img src="cid:qrImage" style="width: 100%; max-width: 300px;" alt="Thank You" />
       </div>
     `,
     attachments: [
